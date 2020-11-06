@@ -33,7 +33,8 @@ header {
     padding: 20px;
     width: 80%;
     border-style: solid;
-    border-color: rgba(0, 0, 0, 0.26);
+    border-color: rgba(0, 0, 0, 0.027);
+    background-color: rgba(255, 255, 255, 0.274);
     border-radius: 20px;
     -moz-box-shadow: 0 0 5px #fff;
     -webkit-box-shadow: 0 0 5px #fff;
@@ -53,7 +54,9 @@ a {
     text-decoration: none;
     color: white;
 }
-
+#link {
+    margin-right: 35px;
+}
 /* Section */
 
 section {
@@ -63,10 +66,8 @@ section {
 article {
     display: flex;
     justify-content: space-around;
-    margin: 6% 0;
-    background-color: rgba(207, 175, 175, 0.644);
-    width: 50%;
-    align-items: left;
+    margin: 3%;
+    background-color: rgba(255, 255, 255, 0.685);
 }
 hr {
     border-color: white;
@@ -111,3 +112,53 @@ footer {
 .rect2:hover {
     width: 150px;
 }
+
+/* Home */ 
+
+.homeArticle {
+    width: 50%;
+    align-items: left;
+}
+
+/* Proyects */ 
+
+.imgProyecto {
+    width: 300px;
+}
+
+.imgWrap {
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+.imgDescLayer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .imgWrap:hover .imgDescLayer {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .imgDesc {
+    transition: .2s;
+    transform: translateY(1em);
+  }
+  
+  .imgWrap:hover .imgDesc {
+    transform: translateY(0);
+  }
