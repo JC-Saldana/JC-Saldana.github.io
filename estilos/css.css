@@ -7,7 +7,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
     background: transparent; }
 
 /* Body */
@@ -23,6 +22,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* Header */
@@ -34,7 +34,6 @@ header {
     width: 80%;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.027);
-    background-color: rgba(255, 255, 255, 0.274);
     border-radius: 20px;
     -moz-box-shadow: 0 0 5px #fff;
     -webkit-box-shadow: 0 0 5px #fff;
@@ -96,11 +95,18 @@ p {
 /* Footer */
 
 footer {
-    margin: 250px auto;
-    font-size: 1.6em;
+    
+    width: 900px;
+    position: fixed;
+    bottom: 0;
+    
+    margin: 40px;
     padding: 20px;
-    width: 80%;
-    margin-top: 60%; 
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.027);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #fff;
+    font-size: 1.6em;
 }
 .rect2 {
     background-color:rgb(212, 148, 87);
@@ -112,18 +118,14 @@ footer {
 .rect2:hover {
     width: 150px;
 }
-
 /* Home */ 
 
-.homeArticle {
-    width: 50%;
-    align-items: left;
-}
 
 /* Proyects */ 
 
 .imgProyecto {
-    width: 300px;
+    height: 200px;
+    width: 257px;
 }
 
 .imgWrap {
@@ -145,8 +147,7 @@ footer {
     align-items: center;
     justify-content: center;
   
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
+    transition: opacity .15s, visibility .2s;
   }
   
   .imgWrap:hover .imgDescLayer {
@@ -162,3 +163,10 @@ footer {
   .imgWrap:hover .imgDesc {
     transform: translateY(0);
   }
+
+  /* Media query */
+@media screen and (max-width:65em) {
+    body {
+        width: 1%;
+    }
+}
