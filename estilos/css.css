@@ -12,23 +12,49 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 /* Body */
 
 body {
-    margin: 30px auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
     max-width: 1024px;
-    min-height: 1000px;
-    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(225,241,242,1) 95%, rgba(223,240,241,1) 100%);
+    min-height: 100vh;
+    background: whitesmoke;
     
-    background: url("../img/carne4.2.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/carne4.2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-}
 
+    
+   
+   
+}
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: rgb(189, 184, 184); 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  
 /* Header */
 
 header {
-    margin: auto;
+    max-height: 200px;
     font-size: 1.6em;
     padding: 20px;
     width: 80%;
@@ -56,33 +82,13 @@ a {
 #link {
     margin-right: 35px;
 }
-/* Section */
 
-section {
-    width: 100%;
-    margin: 2% auto;
-}
-article {
-    display: flex;
-    justify-content: space-around;
-    margin: 3%;
-    background-color: rgba(255, 255, 255, 0.685);
-}
-hr {
-    border-color: white;
-    background-color: white;
-    height: 0.1px;
-}
-#hr1 {
-    transform: rotate(90deg);
-}
-p {
-    font-size: 1.2em;
-    width: 320px;
-}
+/* Icons */
+
 #icons {
     text-align: left;
     text-align: center;
+    align-self: stretch;
 }
 #icons a {
     padding: 4px;
@@ -92,40 +98,25 @@ p {
     color: white;
     font-size: 2em;
 }
-/* Footer */
 
-footer {
-    
-    width: 900px;
-    position: fixed;
-    bottom: 0;
-    
-    margin: 40px;
-    padding: 20px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.027);
-    border-radius: 20px;
-    box-shadow: 0px 0px 5px #fff;
-    font-size: 1.6em;
-}
-.rect2 {
-    background-color:rgb(212, 148, 87);
-    width: 140px;
-    height: 50px;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-.rect2:hover {
-    width: 150px;
-}
-/* Home */ 
+/* Main */
 
+/* Main > Home */
 
-/* Proyects */ 
+main {
+    flex-grow:1;
+    width: 80%;
+    overflow: auto;
+}
+
+/* Main > Projects */
+
+#projectsSection {
+    max-height: 13vmax;
+}
 
 .imgProyecto {
-    height: 200px;
-    width: 257px;
+    width: 100%;
 }
 
 .imgWrap {
@@ -164,7 +155,64 @@ footer {
     transform: translateY(0);
   }
 
-  /* Media query */
+
+
+/* Main > Contact */
+
+    /* Section */
+
+    section {
+        width: 100%;
+        margin: 2% auto;
+    }
+    article {
+        
+        display: flex;
+        padding: 2%;
+        margin: 5% ;
+        background-color: rgba(255, 255, 255, 0.685);
+        border-radius: 10px;
+    }
+    hr {
+        border-color: white;
+        background-color: white;
+        height: 0.1px;
+    }
+    #hr1 {
+        transform: rotate(90deg);
+    }
+    p {
+        font-size: 1.2em;
+        width: 320px;
+    }
+
+/* Footer */
+
+footer {
+    align-self: baseline;
+    max-height: 200px;
+    width: 900px;
+    
+    margin: 40px;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.027);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #fff;
+    font-size: 1.6em;
+}
+.rect2 {
+    background-color:rgb(212, 148, 87);
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.rect2:hover {
+    width: 150px;
+}
+
+    /* Media query */
 @media screen and (max-width:65em) {
     body {
         width: 1%;
