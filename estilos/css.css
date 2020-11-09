@@ -28,10 +28,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-
-    
-   
-   
 }
 /* Scrollbar */
 
@@ -105,7 +101,7 @@ a {
 
 main {
     flex-grow:1;
-    width: 80%;
+    width: 95%;
     overflow: auto;
 }
 
@@ -116,7 +112,8 @@ main {
 }
 
 .imgProyecto {
-    width: 100%;
+    width: 120%;
+    border-radius: 10px;
 }
 
 .imgWrap {
@@ -162,12 +159,12 @@ main {
     /* Section */
 
     section {
-        width: 100%;
+        width: 90%;
         margin: 2% auto;
     }
     article {
-        
         display: flex;
+        justify-content: space-between;
         padding: 2%;
         margin: 5% ;
         background-color: rgba(255, 255, 255, 0.685);
@@ -185,7 +182,9 @@ main {
         font-size: 1.2em;
         width: 320px;
     }
-
+    #projectsSection article p {
+        margin: 2%;
+    }
 /* Footer */
 
 footer {
