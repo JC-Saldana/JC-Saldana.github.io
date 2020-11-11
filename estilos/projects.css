@@ -1,47 +1,39 @@
+
 #projectsSection {
     max-height: 13vmax;
 }
 
 .imgProyecto {
-    width: 120%;
-    border-radius: 10px;
+  position: relative;
 }
 
-.imgWrap {
-    position: relative;
-    height: 200px;
-    width: 257px;
+.imgProyecto img {
+    width: 120%;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 220px;
+    width: 350px;
 }
-.imgDescLayer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    transition: opacity .15s, visibility .2s;
-  }
-  
-  .imgWrap:hover .imgDescLayer {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .imgDesc {
-    transition: .2s;
-    transform: translateY(1em);
-  }
-  
-  .imgWrap:hover .imgDesc {
-    transform: translateY(0);
-  }
+
+.imgProyecto:hover img{
+  color: black;
+  filter: brightness(50%) blur(2px);
+}
+
+
+#iconosProyecto {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  visibility: hidden;
+}
+
+#iconosProyecto a {
+    font-size: 2em;
+}
+.imgProyecto:hover a{
+  visibility: visible;
+}
 
   #projectsSection article p {
     margin: 2%;

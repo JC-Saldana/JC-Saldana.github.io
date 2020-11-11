@@ -147,8 +147,8 @@ slideLeft
 	animation-name: slideLeft;
 	-webkit-animation-name: slideLeft;	
 
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
@@ -209,8 +209,8 @@ slideRight
 	animation-name: slideRight;
 	-webkit-animation-name: slideRight;	
 
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
@@ -729,7 +729,7 @@ pulse
 .pulse:hover{
 	animation-name: pulse;
 	-webkit-animation-name: pulse;	
-
+	animation-delay: 0.01s;
 	animation-duration: 1.5s;	
 	-webkit-animation-duration: 1.5s;
 
