@@ -23,7 +23,7 @@ body {
     min-height: 100vh;
     background: whitesmoke;
     
-    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.2)), url("../img/carne4.2.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.2)), url("../img/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

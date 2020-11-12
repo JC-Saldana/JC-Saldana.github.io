@@ -1,0 +1,24 @@
+
+#indexContent {
+    margin: 30%;
+    display: flex;
+    flex-flow: column ;
+    text-align: center;
+}
+
+p {
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    font-family: monospace;
+    width: 70%;
+    background-color:rgba(255, 255, 255, 0.753);
+    border-radius: 20px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
