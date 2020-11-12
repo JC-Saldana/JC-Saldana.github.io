@@ -37,6 +37,7 @@ body {
 header {
     max-height: 200px;
     font-size: 1.7em;
+    margin-bottom: 10px;
     padding: 20px;
     width: 80%;
     border-style: solid;
@@ -95,7 +96,7 @@ hr {
 }
 p {
     font-size: 1.2em;
-    width: 320px;
+    width: 370px;
 }
 
 /* Footer */
@@ -103,7 +104,7 @@ p {
 footer {
     max-height: 200px;
     width: 900px;
-    margin: 50px;
+    margin-bottom: 50px;
     font-size: 1.4em;
 }
 .rect2 {

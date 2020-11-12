@@ -29,12 +29,17 @@
 }
 
 #iconosProyecto a {
-    font-size: 2em;
+  font-size: 2em;
 }
 .imgProyecto:hover a{
   visibility: visible;
 }
 
-  #projectsSection article p {
-    margin: 2%;
+#projectsSection article p {
+  margin: 2%;
+}
+
+.flip-in {
+	-webkit-animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }

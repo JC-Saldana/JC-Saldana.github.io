@@ -1,18 +1,20 @@
 
 #indexContent {
-    margin: 30%;
-    display: flex;
-    flex-flow: column ;
-    text-align: center;
+    display: flex ;
+    flex-direction: column ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+    align-items: center ;
 }
-
+#textoIndex {
+    padding-left: 30%;
+}
 p {
-    padding: 30px;
-    color: rgb(0, 0, 0);
-    font-size: 4em;
+
+    color: rgb(255, 255, 255);
+    font-size:1.8vw;
     font-family: monospace;
     width: 70%;
-    background-color:rgba(255, 255, 255, 0.753);
     border-radius: 20px;
 }
 button {
@@ -21,4 +23,8 @@ button {
     border-radius: 20px;
     cursor: pointer;
     margin: 20px;
+}
+.slide-in {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
