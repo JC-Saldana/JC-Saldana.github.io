@@ -95,11 +95,9 @@ p {
     font-size: 1.2em;
 }
 #mainHr {
-    width: 500px;
+    width: 30vw;
 }
-#sureButton {
-    margin-left: 70px;
-}
+
 /* Footer */
 
 footer {
