@@ -6,17 +6,14 @@
     justify-content: center ;
     align-items: center ;
 }
-#txtIndex {
-    padding-left: 30%;
-}
 p {
-
+    width: auto;
+    padding: 10px;
     color: rgb(255, 255, 255);
     font-size:1.8vw;
     font-family: monospace;
-    width: 70%;
-    border-radius: 20px;
 }
+
 button {
     width: 150px;
     height: 50px;

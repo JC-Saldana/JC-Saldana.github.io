@@ -1,4 +1,8 @@
 
+p {
+  width: 370px;
+}
+
 #projectsSection {
     max-height: 13vmax;
 }

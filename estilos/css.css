@@ -93,9 +93,13 @@ hr {
 }
 p {
     font-size: 1.2em;
-    width: 370px;
 }
-
+#mainHr {
+    width: 500px;
+}
+#sureButton {
+    margin-left: 70px;
+}
 /* Footer */
 
 footer {
@@ -103,7 +107,9 @@ footer {
     width: 900px;
     font-size: 1.4em;
 }
-
+#english {
+    cursor: pointer;
+}
 /* Icons */
 
 #icons {
