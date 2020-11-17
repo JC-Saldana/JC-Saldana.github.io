@@ -1,1 +1,10 @@
 
+article {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 5% ;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 10px;
+    border-style: solid;
+  }

@@ -6,9 +6,9 @@ window.addEventListener('load', function() {
 
 function idioma() {
   if (document.getElementById("txtIndex").innerHTML==txtEspañol[0]) {
-    document.getElementById("idiomas").addEventListener("click", inglés)
+    inglés()
   } else {
-    document.getElementById("idiomas").addEventListener("click", español)
+    español()
   }
 }
 

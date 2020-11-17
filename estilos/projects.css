@@ -1,4 +1,14 @@
 
+article {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 5% ;
+  background-color: rgba(255, 255, 255, 0.685);
+  border-radius: 10px;
+  border-style: solid;
+}
+
 p {
   width: 370px;
 }
@@ -9,14 +19,15 @@ p {
 
 .imgProyecto {
   position: relative;
+  
 }
 
 .imgProyecto img {
-    width: 120%;
-    border-radius: 10px;
-    transition: 0.3s;
-    height: 220px;
-    width: 350px;
+  width: 120%;
+  border-radius: 10px;
+  transition: 0.3s;
+  height: 220px;
+  width: 350px;
 }
 
 .imgProyecto:hover img{
