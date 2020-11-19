@@ -15,13 +15,14 @@ function idioma() {
 function español () {
   localStorage.setItem("lastname", txtEspañol[0]);
   document.getElementById("txtIndex").innerHTML = txtEspañol[0];
-  document.getElementById("txtPizza").innerHTML = txtEspañol[1];
+  document.getElementById("pizzo").innerHTML = txtEspañol[1];
+  //document.getElementById("txtPizza").innerHTML = txtEspañol[1];
 }
 
 function inglés () {
   localStorage.setItem("lastname", txtInglés[0]);
   document.getElementById("txtIndex").innerHTML = txtInglés[0];
-  document.getElementById("txtPizza").innerHTML = txtInglés[1];
+  //document.getElementById("txtPizza").innerHTML = txtInglés[1];
 }
 
 var txtInglés = [

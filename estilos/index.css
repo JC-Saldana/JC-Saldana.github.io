@@ -5,13 +5,15 @@
     flex-wrap: wrap ;
     justify-content: center ;
     align-items: center ;
+    margin-bottom: 30vh;
 }
 p {
     width: auto;
     padding: 10px;
     color: rgb(255, 255, 255);
-    font-size:1.8vw;
+    font-size: 1.8vw;
     font-family: monospace;
+    text-shadow: black;
 }
 
 #sureButton {
@@ -36,8 +38,8 @@ p {
     font-family: monospace;
 }
 
-#idiomas {
-    cursor: pointer;
+#sureButton:hover {
+    background-color: rgba(0, 0, 0, 0.13);
 }
 
 .slide-in {
