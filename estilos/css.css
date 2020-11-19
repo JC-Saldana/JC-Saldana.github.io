@@ -97,6 +97,7 @@ footer {
     margin: 0px auto;
     width: 900px;
     font-size: 1.4em;
+    user-select: none;
 }
 #idiomas {
     cursor: pointer;
