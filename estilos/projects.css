@@ -10,7 +10,7 @@ article {
 }
 
 p {
-  width: 370px;
+  width: 10000px;
 }
 
 #projectsSection {
@@ -53,7 +53,7 @@ p {
 }
 
 #projectsSection article p {
-  margin: 2%;
+  padding: 2% 5%;
 }
 
 .flip-in {
