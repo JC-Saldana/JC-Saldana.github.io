@@ -22,11 +22,11 @@ p {
 }
 
 .imgProyecto img {
-  width: 120%;
   border-radius: 10px;
   transition: 0.3s;
-  height: 220px;
-  width: 350px;
+  height: auto;
+  width: 100%;
+  width: 380px;
 }
 
 .imgProyecto:hover img{
