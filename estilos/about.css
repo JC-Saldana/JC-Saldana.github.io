@@ -1,0 +1,22 @@
+
+#indexContent {
+    display: flex ;
+    flex-direction: column ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+    align-items: center ;
+    margin-bottom: 30vh;
+}
+p {
+    width: auto;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8vw;
+    font-family: monospace;
+    text-shadow: black;
+}
+
+#fotoCarne {
+    width: 6vw;
+    border-radius: 50%;
+}

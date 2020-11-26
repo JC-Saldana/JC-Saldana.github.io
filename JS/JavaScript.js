@@ -26,7 +26,7 @@ function inglés () {
 }
 
 var txtInglés = [
-  "This is me - I build websites", // Texto index
+  "I => build && design", // Texto index
   "Prueba inglés 2"  //Indefinido
 ]
 
