@@ -1,8 +1,6 @@
-/*
- * ----------------------------------------
- * animation flip-in-hor-bottom
- * ----------------------------------------
- */
+
+/***** Flip in *****/
+
 @-webkit-keyframes flip-in-hor-bottom {
 	0% {
 	  -webkit-transform: rotateX(80deg);
@@ -28,7 +26,8 @@
 	}
   }
 
-/* Scale in */
+/***** Scale in *****/
+
 .scale-in-center {
 	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -55,6 +54,37 @@
 	  -webkit-transform: scale(1);
 			  transform: scale(1);
 	  opacity: 1;
+	}
+  }
+  
+  /***** Heartbeat *****/
+
+  @-webkit-keyframes pulsate-bck {
+	0% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+	50% {
+	  -webkit-transform: scale(0.9);
+			  transform: scale(0.9);
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+  }
+  @keyframes pulsate-bck {
+	0% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+	50% {
+	  -webkit-transform: scale(0.9);
+			  transform: scale(0.9);
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
 	}
   }
   

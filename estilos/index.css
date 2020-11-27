@@ -36,13 +36,21 @@ p {
     -webkit-box-shadow: 0 0 5px #fff;
     box-shadow: 0px 0px 10px #fff;
     font-family: monospace;
+    animation-delay: 5s;
 }
 
 #sureButton:hover {
     background-color: rgba(0, 0, 0, 0.13);
 }
 
+
+/* Animations */
+
 .slide-in {
 	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.pulsate-bck {
+	-webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
+	        animation: pulsate-bck 1.5s ease-in-out infinite both;
 }

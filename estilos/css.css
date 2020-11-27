@@ -136,12 +136,8 @@ footer {
     background: rgb(148, 179, 123); 
   }
 
-    /* Media query */
+/* Media query */
+
 @media screen and (max-width:65em) {
-    body {
-        width: 1%;
-    }
-    header {
-        font-size: 1.2em;
-    }
+
 }

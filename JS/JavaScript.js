@@ -26,7 +26,7 @@ function inglés () {
 }
 
 var txtInglés = [
-  "I => build && design", // Texto index
+  "Const I = (build, design) =>", // Texto index
   "Prueba inglés 2"  //Indefinido
 ]
 
