@@ -1,36 +1,43 @@
 
 window.addEventListener('load', function() { 
-  document.getElementById("txtIndex").innerHTML = localStorage.lastname
-  document.getElementById("idiomas").addEventListener("click", idioma)  
+  idiomaInicial()
+  document.getElementById("idiomas").addEventListener("click", cambiarIdioma)  
 });
 
-function idioma() {
-  if (document.getElementById("txtIndex").innerHTML==txtEspañol[0]) {
+function idiomaInicial() {
+  if (localStorage.lastname == "ing") {
+    español()
+  } else {
+    inglés()
+  }
+}
+function cambiarIdioma() {
+  if (localStorage.lastname == "ing") {
     inglés()
   } else {
     español()
   }
 }
 
+
 function español () {
-  localStorage.setItem("lastname", txtEspañol[0]);
+  localStorage.setItem("lastname", "ing")
   document.getElementById("txtIndex").innerHTML = txtEspañol[0];
-  document.getElementById("pizzo").innerHTML = txtEspañol[1];
-  //document.getElementById("txtPizza").innerHTML = txtEspañol[1];
+  document.getElementById("sureButton").innerHTML = txtEspañol[1];
 }
 
 function inglés () {
-  localStorage.setItem("lastname", txtInglés[0]);
+  localStorage.setItem("lastname", "esp")
   document.getElementById("txtIndex").innerHTML = txtInglés[0];
-  //document.getElementById("txtPizza").innerHTML = txtInglés[1];
+  document.getElementById("sureButton").innerHTML = txtInglés[1];
 }
 
 var txtInglés = [
-  "Const I = (build, design) =>", // Texto index
-  "Prueba inglés 2"  //Indefinido
+  "This is me - I build Websites", // Texto index
+  "View Work"  //Indefinido
 ]
 
 var txtEspañol = [
-  "Prueba español 1", // Texto index
-  "Prueba español 2"  //Indefinido
+  "Este soy yo - Hago páginas web", // Texto index
+  "Ver Proyectos"  //Indefinido
 ]
