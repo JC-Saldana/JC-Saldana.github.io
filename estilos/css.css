@@ -60,8 +60,13 @@ a {
     color: white;
     transition: all 0.3s ease 0s;
 }
-a:hover {
-    width: 110px;
+li > a {
+    text-decoration: none;
+    color: white;
+}
+li:hover {
+    color: black;
+    animation: pulsate-bck 0.1s ease-out 0.5 both;
 }
 #link {
     margin-right: 35px;
@@ -112,6 +117,9 @@ footer {
 #icons {
     text-align: center;
     align-self: stretch;
+}
+#icons *:hover {
+    animation: pulsate-bck 0.1s ease-out 0.5 both;
 }
 #icons i {
     padding: 4px;

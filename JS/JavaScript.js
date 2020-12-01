@@ -1,3 +1,4 @@
+// Idioma
 
 window.addEventListener('load', function() { 
   idiomaInicial()
