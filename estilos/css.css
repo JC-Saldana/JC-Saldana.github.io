@@ -65,7 +65,6 @@ li > a {
     color: white;
 }
 li:hover {
-    color: black;
     animation: pulsate-bck 0.1s ease-out 0.5 both;
 }
 #link {
