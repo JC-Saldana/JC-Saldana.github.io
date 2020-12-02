@@ -1,20 +1,16 @@
 
 article {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2%;
-  margin: 5% ;
+  margin: 2% 5%;
   background-color: rgba(255, 255, 255, 0.685);
   border-radius: 10px;
   border-style: solid;
 }
 
-p {
-  width: 10000px;
-}
-
 #projectsSection {
-    max-height: 13vmax;
+  max-height: 13vmax;
 }
 
 .imgProyecto {
@@ -34,14 +30,12 @@ p {
   filter: brightness(50%) blur(2px);
 }
 
-
 #iconosProyecto {
   top: 50%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   visibility: hidden;
-  
 }
 
 #iconosProyecto a {
@@ -53,7 +47,8 @@ p {
 }
 
 #projectsSection article p {
-  padding: 2% 5%;
+  padding: 3% 0% 3% 5%;
+  font-size: 1.1em;
 }
 
 .flip-in {
