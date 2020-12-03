@@ -11,11 +11,15 @@ p {
     width: auto;
     padding: 10px;
     color: rgb(255, 255, 255);
-    font-size: 1.8vw;
+    font-size: 2.5em;
     text-shadow: black;
 }
 
 #fotoCarne {
     width: 6vw;
     border-radius: 50%;
+}
+
+hr {
+    width: 800px;
 }
