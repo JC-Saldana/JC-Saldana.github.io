@@ -10,7 +10,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
     background: transparent; 
     font-family: 'Poppins', sans-serif;
 }
-
+html {
+  height: 100%;
+}
 /* Body */
 
 body {
@@ -18,7 +20,7 @@ body {
     display: grid;
     grid-template-rows: 90px auto 120px;
     max-width: 1100px;
-    min-height: 100vh;
+    min-height: 100%;
     background: whitesmoke;
     
     background: linear-gradient(rgba(6, 69, 88, 0.829), rgba(61, 2, 12, 0.185)), url("../img/dd.png") no-repeat center center fixed;
@@ -148,5 +150,4 @@ footer {
 /* Media query */
 
 @media screen and (max-width:65em) {
-
 }
