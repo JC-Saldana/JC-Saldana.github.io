@@ -23,7 +23,7 @@ p {
     cursor: pointer;
     font-size: 2em;
     color: white;
-    font-family: cursive;
+    /* font-family: ; Poner alguna de google o buscar predefinidas*/
     background-color: rgba(0, 0, 0, 0.250);
     border-style: solid;
     border-width: 3px;
