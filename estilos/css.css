@@ -30,7 +30,6 @@ body {
     overflow: hidden;
 }
 
-  
 /* Header */
 
 header {
@@ -56,6 +55,9 @@ ul {
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
+}
+#li3 {
+    display: none;
 }
 a {
     text-decoration: none;
@@ -149,4 +151,15 @@ footer {
 /* Media query */
 
 @media screen and (max-width:65em) {
+    header {
+        font-size: 2em;
+        height: 40px;
+    }
+    #li1, #li2 {
+        display: none;
+    }
+    #li3 {
+        display: inline;
+        margin: 0px 10px;
+    }
 }

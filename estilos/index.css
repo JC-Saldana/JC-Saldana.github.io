@@ -6,22 +6,22 @@
     justify-content: center ;
     align-items: center ;
     margin-bottom: 30vh;
+    font-size: 2.5em;
 }
 p {
     width: auto;
     padding: 10px;
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
     text-shadow: black;
 }
 
 #sureButton {
     margin: 10px;
     width: 380px;
-    height: 47px;
+    height: 60px;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 0.9em;
     color: white;
     font-family: 'Nerko One', cursive;
     background-color: rgba(0, 0, 0, 0.250);
@@ -54,3 +54,15 @@ p {
 	-webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
 	        animation: pulsate-bck 1.5s ease-in-out infinite both;
 }
+
+/* Media query */
+
+@media screen and (max-width:68em) {
+    p {
+        font-size: 1.3em;
+    }
+    #sureButton {
+        font-size: 1.5em;
+        height: 80px;
+    }
+  }
