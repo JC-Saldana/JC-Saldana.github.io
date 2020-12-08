@@ -6,7 +6,7 @@
     justify-content: center ;
     align-items: center ;
     margin-bottom: 30vh;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 p {
     width: auto;
@@ -16,9 +16,9 @@ p {
 }
 
 #sureButton {
-    margin: 10px;
+    margin: 22px;
     width: 380px;
-    height: 60px;
+    height: 50px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 0.9em;
@@ -42,6 +42,7 @@ p {
 
 #mainHr {
     width: 700px;
+    margin: 0px;
 }
 
 /* Animations */
