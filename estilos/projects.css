@@ -57,7 +57,7 @@ article {
 
 /* Media query */
 
-@media screen and (max-width:68em) {
+@media screen and (max-width:65em) {
   #projectsSection {
     max-height: 13vmax;
   }

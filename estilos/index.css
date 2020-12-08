@@ -58,7 +58,7 @@ p {
 
 /* Media query */
 
-@media screen and (max-width:68em) {
+@media screen and (max-width:65em) {
     p {
         font-size: 1.3em;
     }
