@@ -155,11 +155,17 @@ footer {
         font-size: 2em;
         height: 40px;
     }
+    body {
+        grid-template-rows: 110px auto 150px;
+    }
     #li1, #li2 {
         display: none;
     }
     #li3 {
         display: inline;
         margin: 0px 10px;
+    }
+    #icons i {
+        font-size: 3em;
     }
 }
