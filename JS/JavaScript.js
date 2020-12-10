@@ -20,6 +20,7 @@ function cambiarIdioma() {
   }
 }
 
+//$("#div3").html("<h3><font color='lightgreen'>A disfrutar con el Javascript</font></h3>")
 
 function español () {
   localStorage.setItem("lastname", "ing")
