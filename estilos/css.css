@@ -158,7 +158,7 @@ footer {
     body {
         grid-template-rows: 110px auto 150px;
     }
-    #li1, #li2 {
+    #li1 {
         display: none;
     }
     #li3 {

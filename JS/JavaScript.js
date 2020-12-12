@@ -21,7 +21,7 @@ function cambiarIdioma() {
 }
 
 //$("#div3").html("<h3><font color='lightgreen'>A disfrutar con el Javascript</font></h3>")
-
+//Quizás usar append
 function español () {
   localStorage.setItem("lastname", "ing")
   document.getElementById("txtIndex").innerHTML = txtEspañol[0];
