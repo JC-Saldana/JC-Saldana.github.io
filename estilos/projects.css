@@ -1,4 +1,6 @@
-
+body {
+  background: linear-gradient(rgba(6, 69, 88, 0.829), rgba(61, 2, 12, 0.185));
+}
 article {
   display: flex;
   justify-content: space-around;

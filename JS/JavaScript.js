@@ -4,7 +4,8 @@
 $(inicio)
 function inicio() {
   idiomaInicial()
-  document.getElementById("idiomas").addEventListener("click", cambiarIdioma)  
+  document.getElementById("idiomas").addEventListener("click", cambiarIdioma)
+  $(".loader-wrapper").fadeOut(1000)  
 }
 
 // Idiomas
