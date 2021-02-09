@@ -10,31 +10,43 @@ body {
     align-items: center ;
     margin-top: 25px;
 }
-
-h1 {
-    font-weight: normal;
+#titabout {
+    font-size: 2em;
     color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 1.7em;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
 }
 
 p {
     width: auto;
     padding: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 article {
     display: flex;
     justify-content: space-between;
     padding: 2%;
-    margin: 5% 5%;
+    margin: 2% 5%;
     background-color: rgba(255, 255, 255, 0.685);
     border-radius: 10px;
     border-style: solid;
-  }
-
+}
+section {
+    width: 90%;
+    margin-right: 20px;
+}
 #fotoCarne {
-    width: 6vw;
+    width: 150px;
     border-radius: 50%;
+}
+
+.iconoabout {
+    width: 100px;
+    height: auto;
 }
 
 hr {
