@@ -9,11 +9,11 @@
     margin-bottom: 30vh;
     font-size: 2.2em;
 }
+
 p {
     width: auto;
     padding: 10px;
     color: rgb(255, 255, 255);
-    text-shadow: black;
 }
 
 #sureButton {

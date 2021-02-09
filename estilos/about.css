@@ -6,16 +6,31 @@ body {
     display: flex ;
     flex-direction: column ;
     flex-wrap: wrap ;
-    justify-content: center ;
+    justify-content: top ;
     align-items: center ;
-    margin-bottom: 30vh;
+    margin-top: 25px;
 }
+
+h1 {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
 p {
     width: auto;
     padding: 10px;
     color: rgb(255, 255, 255);
-    text-shadow: black;
 }
+
+article {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 5% 5%;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 10px;
+    border-style: solid;
+  }
 
 #fotoCarne {
     width: 6vw;
