@@ -18,13 +18,14 @@ article {
 
 .imgProyecto {
   position: relative;
+  height: 235px;
 }
 
 .imgProyecto img {
   border-radius: 10px;
   transition: 0.3s;
   height: auto;
-  width: 380px;
+  width: 350px;
 }
 
 .imgProyecto:hover img{
@@ -77,6 +78,7 @@ article {
     margin: 15px auto 0px auto;
   }
   #projectsSection article p {
+    margin-top: 400px;
     padding: 8%;
     font-size: 2em;
   }
