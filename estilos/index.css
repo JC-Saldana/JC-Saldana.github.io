@@ -12,6 +12,11 @@
 
 p {
     padding: 10px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 2px #000000a2);
+}
+
+h2 {
     color: white;
     filter: drop-shadow(3px 3px 2px #000000c4);
 }
@@ -29,7 +34,7 @@ p {
     border-width: 3px;
     border-color: black;
     border-top: rgba(0, 0, 0, 0.027);
-    border-radius: 18px;
+    border-radius: 30px;
     outline: none;
     -moz-box-shadow: 0 0 5px #fff;
     -webkit-box-shadow: 0 0 5px #fff;
